@@ -8,27 +8,6 @@
 
 /* General settings */
 
-/* Flex */
-
-.nav-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-}
-.jumbo-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.column-flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 /* li style */
 
 li {
@@ -37,16 +16,101 @@ li {
 
 /* Font */
 
+
+/* Header */
+header {
+    max-width: 100vW;
+    background-color: blueviolet;
+}
+
+/* Nav */
+
+nav {
+    max-width: 100%;
+    height: 50px;
+    background-color: red;
+    margin: auto;
+}
+
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Jumbo */
+
+.jumbo {
+    max-width: 1000px;
+    height: 500px;
+    background-color: blue;
+    margin: auto;
+}
+
+.jumbo-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 h1 {
     text-align: left;
     font-size: 70px;
 }
 
-/* Header */
-
-/* Jumbo */
-
 .jumbo-img {
     width: 60%;
     aspect-ratio: 16/9;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Main */
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Plans */
+
+.plans-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.plans-flex .details {
+    border: 1px solid black;
+    max-width: calc(100%/3);
+}
+
+.enterprice {
+    border: 1px solid black;
+    max-width: 100%;
+}
+
+/* Find a partner */
+
+.find-a-partner {
+    width: 100%;
+}
+
+.partner-flex {
+    display: flex;
+}
+
+.partner-flex > div {
+    width: 50%;
+    height: 400px;
+}
+
+.partner-left > img {
+    max-width: 100%;
+    height: 100%;
 }
