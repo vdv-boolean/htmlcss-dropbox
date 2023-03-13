@@ -10,12 +10,23 @@
 
 /* Flex */
 
-.flex {
+.nav-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+.jumbo-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* li style */
@@ -24,6 +35,18 @@ li {
     list-style: none;
 }
 
-header {
+/* Font */
 
+h1 {
+    text-align: left;
+    font-size: 70px;
+}
+
+/* Header */
+
+/* Jumbo */
+
+.jumbo-img {
+    width: 60%;
+    aspect-ratio: 16/9;
 }

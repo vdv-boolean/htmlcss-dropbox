@@ -1,5 +1,6 @@
 header {
     max-width: 100vW;
+    background-color: blueviolet;
 }
 
 nav {
@@ -10,8 +11,10 @@ nav {
 }
 
 .jumbo {
-    max-width: 100%;
+    max-width: 1000px;
     height: 500px;
     background-color: blue;
     margin: auto;
 }
+
+
