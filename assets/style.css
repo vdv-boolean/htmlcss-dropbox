@@ -16,6 +16,10 @@ li {
 
 /* Font */
 
+html {
+    font-family: sans-serif;
+}
+
 /* Buttons */
 
 .blue-btn {
@@ -53,6 +57,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+
+nav li,
+a {
+    font-weight: lighter;
 }
 
 /* Jumbo */
