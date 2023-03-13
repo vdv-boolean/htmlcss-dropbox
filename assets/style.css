@@ -1,5 +1,29 @@
+/* Reset */
+
 *, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* General settings */
+
+/* Flex */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* li style */
+
+li {
+    list-style: none;
+}
+
+header {
+
 }

@@ -1,0 +1,17 @@
+header {
+    max-width: 100vW;
+}
+
+nav {
+    max-width: 100%;
+    height: 50px;
+    background-color: red;
+    margin: auto;
+}
+
+.jumbo {
+    max-width: 100%;
+    height: 500px;
+    background-color: blue;
+    margin: auto;
+}
