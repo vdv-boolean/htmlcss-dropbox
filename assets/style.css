@@ -42,9 +42,10 @@ h2 {
 
 /* Header */
 header {
-    max-width: 1920px;
+    /* max-width: 100; */
     background-color: #b4d0e7;
     position: relative;
+    margin: auto;
 }
 
 /* Nav */
