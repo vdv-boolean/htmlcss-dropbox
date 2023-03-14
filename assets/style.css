@@ -20,6 +20,10 @@ html {
     font-family: sans-serif;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 /* Buttons */
 
 .blue-btn {
@@ -27,6 +31,13 @@ html {
     color: white;
     background-color: #0061ff;
     padding: 0.6rem;
+}
+
+.white-btn {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+   padding: 0.5rem 2rem 0.5rem 2rem;
 }
 
 /* Header */
@@ -110,7 +121,7 @@ h1 {
 /* Main */
 
 main {
-    max-width: 800px;
+    max-width: 1920px;
     margin: auto;
 }
 
@@ -159,17 +170,39 @@ padding-top: 2rem;
     margin-bottom: 1rem;
 }
 
+/* Free Trial */
+
+.free-trial {
+    width: 100%;
+    height: 360px;
+    background-color: #B4D0E7;
+}
+
+.free-trial .container {
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.free-trial h2 {
+    color: #61082B;
+    flex: 0 0 40%;
+}
+
 /* F.A.Q. */
 
 .faq {
     width: 1000px;
     height: 700px;
+    margin: auto;
 }
 
 .faq h2 {
     padding-top: 10rem;
     margin-bottom: 4rem;
-    font-size: 2rem;
 }
 
 .question::before {
