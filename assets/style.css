@@ -31,7 +31,7 @@ html {
 
 /* Header */
 header {
-    max-width: 100vW;
+    max-width: 1920px;
     background-color: #b4d0e7;
     position: relative;
 }
@@ -157,4 +157,32 @@ padding-top: 2rem;
 
 .padding-rigt {
     margin-bottom: 1rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.footer-nav ul {
+    margin-left: 2rem;
+}
+
+.footer-nav li:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-nav li {
+    font-weight: light;
+    margin-bottom: 0.75rem;
 }
