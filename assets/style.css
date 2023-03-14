@@ -138,9 +138,28 @@ main {
 
 /* Plans */
 
+.plans {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.plans h2 {
+    margin-bottom: 4rem;
+}
+
 .plans-flex {
     display: flex;
     gap: 20px;
+    margin-bottom: 4rem;
+}
+
+.plans-details * {
+    margin-bottom: 2rem;
+}
+
+.plan-type {
+    border: 1px solid black;
+    text-align: center;
 }
 
 .plans-flex .details {
@@ -187,7 +206,7 @@ flex: 0 0 30%;
 }
 
 .partner-right h3,
-.partner-right p {
+.partner-right p{
     padding-bottom: 2rem;
 } 
 
