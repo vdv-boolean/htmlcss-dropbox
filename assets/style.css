@@ -201,15 +201,21 @@ padding-top: 2rem;
 .box-left .box,
 .box-right .box {
     flex: 0 0 50%; 
+    position: relative;
 }
 
  .box img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
+    filter: invert(1);
+    height: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 } 
 
 .a {
     background-color: #A2D39B;
+    border: 1rem solid #D1E9CD;
 }
 
 .b {
