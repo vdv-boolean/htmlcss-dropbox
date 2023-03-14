@@ -73,6 +73,8 @@ nav {
 nav li,
 a {
     font-weight: lighter;
+    text-decoration: none;
+    color: black;
 }
 
 /* Jumbo */
