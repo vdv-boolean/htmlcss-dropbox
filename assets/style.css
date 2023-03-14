@@ -170,6 +170,80 @@ padding-top: 2rem;
     margin-bottom: 1rem;
 }
 
+/* Business Team */
+
+.business-team {
+    width: 100%;
+    height: 1000px;
+}
+
+.container-up {
+    width: 1000px;
+    height: 360px;
+    margin: auto;
+}
+
+.container-down {
+    display: flex;
+}
+
+.container-down > div{
+    width: calc(100%/3);
+    aspect-ratio: 1 / 1;
+}
+
+.box-left,
+.box-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-left .box,
+.box-right .box {
+    flex: 0 0 50%; 
+}
+
+ .box img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+} 
+
+.a {
+    background-color: #A2D39B;
+}
+
+.b {
+    background-color: #61082B;
+}
+
+.c {
+    background-color: #0093CE;
+}
+
+.d {
+    background-color: #FF1C1C;
+}
+
+.e {
+    background-color: #F5F5F5;
+}
+
+.f {
+    background-color: #D5001F;
+}
+
+.g {
+    background-color: #B4D0E7;
+}
+
+.h {
+    background-color: #0D2481;
+}
+
+.i {
+    background-color: #FFD830;
+}
+
 /* Free Trial */
 
 .free-trial {
