@@ -40,6 +40,14 @@ h2 {
    padding: 0.5rem 2rem 0.5rem 2rem;
 }
 
+.btn {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+   padding: 0.5rem 2rem 0.5rem 2rem;
+   border: 1px solid black;
+}
+
 /* Header */
 header {
     /* max-width: 100; */
@@ -148,16 +156,24 @@ main {
 /* Find a partner */
 
 .find-a-partner {
-    width: 100%;
+    width: 1000px;
+    margin: auto;
 }
 
 .partner-flex {
     display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .partner-flex > div {
-    width: 50%;
-    height: 300px;
+    width: 100%;
+    height: 500px;
+
+}
+
+.partner-left {
+    flex: 0 0 70%;
 }
 
 .partner-left > img {
@@ -167,11 +183,13 @@ main {
 
 .partner-right {
 padding-top: 2rem;
+flex: 0 0 30%;
 }
 
-.padding-rigt {
-    margin-bottom: 1rem;
-}
+.partner-right h3,
+.partner-right p {
+    padding-bottom: 2rem;
+} 
 
 /* Business Features */
 
