@@ -82,7 +82,7 @@ a {
 
 h1 {
     text-align: left;
-    font-size: 70px;
+    font-size: 65px;
     margin-bottom: 40px;
 }
 
@@ -101,6 +101,12 @@ h1 {
 .column-left span {
     margin-bottom: 30px;
 }
+
+.fa-arrow-down {
+    font-size: 30px;
+    color: black;
+}
+
 /* Main */
 
 main {
