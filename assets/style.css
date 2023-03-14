@@ -250,6 +250,30 @@ padding-top: 2rem;
     background-color: #FFD830;
 }
 
+.box-center {
+    padding: 3rem 3rem 3rem 3rem;
+}
+
+.box-center img {
+    height: 100px;
+    margin-bottom: 2rem;
+}
+
+.box-center p,
+.box-center span {
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+.box-center p::before {
+    content: "";
+    display: block;
+    width: 120px;
+    height:50px;
+    border-top: 1px solid #999999;
+
+}
+
 /* Free Trial */
 
 .free-trial {
