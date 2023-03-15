@@ -31,6 +31,8 @@ h2 {
     color: white;
     background-color: #0061ff;
     padding: 0.6rem;
+    display: block;
+    text-align: center;
 }
 
 .white-btn {
@@ -154,12 +156,23 @@ main {
     margin-bottom: 4rem;
 }
 
-.plans-details * {
-    margin-bottom: 2rem;
+.plan-content * {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.plan-header {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.plan-content {
+    padding-inline: 2rem;
 }
 
 .plan-type {
-    border: 1px solid black;
     text-align: center;
 }
 
@@ -168,9 +181,54 @@ main {
     max-width: calc(100%/3);
 }
 
+.plan-highlights::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height:50px;
+    border-top: 1px solid #999999;
+    margin-top: 50px;
+}
+
 .enterprice {
     border: 1px solid black;
     max-width: 100%;
+}
+
+.plan-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.plan-name li {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.plan-name li:last-child {
+    font-weight: 100;
+    color: grey;
+}
+
+.plan-highlights li{
+    margin-top: 1rem;
+}
+
+.plan-feature li:first-child::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+}
+
+.plan-feature li:nth-child(2)::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f07b";
+}
+
+.plan-feature li:last-child::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f1e0";
+}
+
+.plan-highlights li::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f00c";
+    color: #0061ff;
 }
 
 /* Find a partner */
@@ -353,7 +411,7 @@ flex: 0 0 30%;
 }
 
 .box:hover {
-    box-shadow: inset 0 0 0 12px #ffffff8d;
+    box-shadow: inset 0 0 0 12px #ffffff50;
 }
 
 /* Free Trial */
