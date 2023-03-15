@@ -220,16 +220,15 @@ flex: 0 0 30%;
 .features {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    gap: 2rem;
 }
 
 .feature {
-    max-width: calc(100% / 3);
-    padding-inline: 2rem;
+    max-width: calc((100% - 4rem) / 3);
 }
 
 .feature img{
-    max-width: 70%;
+    max-width: 100%;   
 }
 
 .feature h3 {
