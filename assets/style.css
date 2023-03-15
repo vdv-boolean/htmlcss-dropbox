@@ -467,7 +467,6 @@ flex: 0 0 30%;
 
 .question {
     margin-bottom: 2rem;
-    flex-grow: 1;
 }
 
 .faq:last-child::after {
