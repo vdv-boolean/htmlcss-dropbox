@@ -508,6 +508,11 @@ footer {
     margin-bottom: 0.75rem;
 }
 
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+}
+
 .language::before {
     content: "";
     display: block;
